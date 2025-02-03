@@ -48,5 +48,9 @@ for (let product of products) {
     console.log(`This product is a ${product}`)
 };
 
+//Task 7
+let orders = [102, 103, 104, 105]; //each ID is a order within orders array 
+orders.forEach(order => console.log(`The order ID is ${order}`));
+
 
 
