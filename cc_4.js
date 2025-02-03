@@ -12,6 +12,13 @@ console.log("Sales: ", sales);
 sum = 0;  //sum of array needs to start at 0
 for (let i = 0; i < sales.length; i++){ // for loop goes through each index to sum
     sum += sales[i];
-}
+};
 console.log(`The total sum of sales: $${sum}`);
 
+//Task 3
+let stock = 10;
+// Will use a decrement while loop to decrease by 1 until 0
+while (stock > 0) {
+    stock--; // Decrease by 1
+    console.log(`Stock update: ${stock}`)
+};
