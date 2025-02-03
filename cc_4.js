@@ -52,5 +52,11 @@ for (let product of products) {
 let orders = [102, 103, 104, 105]; //each ID is a order within orders array 
 orders.forEach(order => console.log(`The order ID is ${order}`));
 
+//Task 8 
+function calculateTax(amount, taxRate){
+    return amount * taxRate;
+} 
+//using the tax rate of $1.08 at a amount of 24.00
+console.log(`The total calculated tax is $${calculateTax(24, 1.08)}`);
 
 
