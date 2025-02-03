@@ -59,4 +59,9 @@ function calculateTax(amount, taxRate){
 //using the tax rate of $1.08 at a amount of 24.00
 console.log(`The total calculated tax is $${calculateTax(24, 1.08)}`);
 
-
+//Task 9 
+function applyDiscount(price, discountPercent){
+    return sum = price - (price * discountPercent)
+}
+//Assuming a price of $20.50 with a 20 percent discount
+console.log(`The dicsounted sale total is $${applyDiscount(21.00, 0.20)}`)
