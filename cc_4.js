@@ -39,4 +39,14 @@ let employee = {        //Create object employee
 for (let property in employee){
     console.log(`Property: ${property}`)
     console.log(`Value: ${employee[property]}`)
-}
+};
+
+//Task 6
+//iterating through products
+let products = ["PC", "Mouse", "Keyboard", "Camera"] 
+for (let product of products) {
+    console.log(`This product is a ${product}`)
+};
+
+
+
