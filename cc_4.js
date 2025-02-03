@@ -27,4 +27,16 @@ let responses = 0
 do {
     console.log(`Current responses: ${responses}`)
     responses++
-} while (responses < 4);
+} while (responses < 4); //Only need up to 3 responses
+
+//Task 5
+let employee = {        //Create object employee
+    name: "Alice",
+    position: "Manager", 
+    salary: 75000
+};
+//looping through each property and value
+for (let property in employee){
+    console.log(`Property: ${property}`)
+    console.log(`Value: ${employee[property]}`)
+}
