@@ -22,3 +22,9 @@ while (stock > 0) {
     stock--; // Decrease by 1
     console.log(`Stock update: ${stock}`)
 };
+//Task 4
+let responses = 0
+do {
+    console.log(`Current responses: ${responses}`)
+    responses++
+} while (responses < 4);
