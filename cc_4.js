@@ -65,3 +65,8 @@ function applyDiscount(price, discountPercent){
 }
 //Assuming a price of $20.50 with a 20 percent discount
 console.log(`The dicsounted sale total is $${applyDiscount(21.00, 0.20)}`)
+
+//Task 10
+const calculatePoints = amountPurchase => amountPurchase/10
+
+console.log(`Your total points accumulated is: ${calculatePoints(50)}`)
